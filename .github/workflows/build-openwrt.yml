@@ -17,13 +17,12 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: true
-        default: 'false'
+        default: 'true'
 
 env:
   REPO_URL: https://github.com/LGA1150/openwrt
   REPO_BRANCH: exp
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
